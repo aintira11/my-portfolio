@@ -24,7 +24,7 @@ function HomePage() {
 
 export default function App() {
   return (
-    <HashRouter>
+   <HashRouter basename="/my-portfolio">  
       <div className="min-h-screen bg-[#0F172A] overflow-x-hidden">
         {/* Background Effects */}
         <div className="fixed inset-0 -z-10">
