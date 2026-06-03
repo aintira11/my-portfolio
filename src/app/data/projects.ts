@@ -44,7 +44,7 @@ export const projects: Project[] = [
     id: "shutter-seek",
     title: "Shutter Seek",
     date: "2024",
-    subtitle: "Academic Capstone Project (Team of 2)",
+    subtitle: "Senior Project (Team of 2)",
     description:
       "A photographer finder platform that connects clients with photographers through an online marketplace. Users can search photographers by category, location, and pricing, browse portfolios, and communicate through real-time chat.",
     image:
