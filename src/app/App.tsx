@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+// import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import { Navigation } from "./components/navigation";
 import { Hero } from "./components/hero";
 import { About } from "./components/about";
@@ -23,7 +24,7 @@ function HomePage() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-[#0F172A] overflow-x-hidden">
         {/* Background Effects */}
         <div className="fixed inset-0 -z-10">
@@ -50,6 +51,6 @@ export default function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
